@@ -1,0 +1,76 @@
+.icon-checkmark3 {
+    color: #5eb95e;
+    cursor: pointer;
+}
+
+.icon-cross2 {
+    color: #f37b1d;
+    cursor: pointer;
+}
+
+.xChildren{
+    display: none;
+}
+
+.modal{
+   top:20px;
+}
+
+.nav-tabs.nav-justified{
+    width: 300px;
+}
+
+.nav-tabs.nav-tabs-bottom > li.active > a, .nav-tabs.nav-tabs-bottom > li.active > a:hover, .nav-tabs.nav-tabs-bottom > li.active > a:focus {
+    border-bottom-color: #26a69a;
+}
+
+/*编辑商品时多图片样式*/
+.am-gallery-item {
+    position: relative;
+}
+
+.file-panel {
+    position: absolute;
+    height: 30px;
+    display: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#80000000', endColorstr='#80000000') \0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 14%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 300;
+}
+
+.file-panel span.cancel {
+    background-position: -48px -24px;
+}
+
+.file-panel span {
+    width: 24px;
+    height: 24px;
+    display: inline;
+    float: right;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url(/vendor/webupload/icons.png) no-repeat;
+    margin: 5px 1px 1px;
+    cursor: pointer;
+}
+
+/*#products_tab4 ul li {*/
+    /*float: left;*/
+    /*margin: 0 5px 0 0;*/
+    /*width: 150px;*/
+    /*height: 150px;*/
+/*}*/
+
+.order_in div {
+    line-height: 25px;
+}
+
+.order_in div a:hover {
+    text-decoration: underline;
+}
+
+
